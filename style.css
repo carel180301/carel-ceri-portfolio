@@ -1,3 +1,10 @@
+/* REMOVE browser default margin */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 p {
   text-align: justify;
   max-width: 700px;
@@ -12,5 +19,5 @@ p {
 }
 
 .navbar.scrolled {
-  background-color: #212529 !important; /* Bootstrap bg-dark */
+  background-color: #212529 !important;
 }
