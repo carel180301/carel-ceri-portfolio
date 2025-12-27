@@ -11,13 +11,3 @@ p {
   margin: 0 auto;
   line-height: 1.7;
 }
-
-/* Navbar transparent only on hero */
-.navbar {
-  background-color: transparent !important;
-  transition: background-color 0.3s ease;
-}
-
-.navbar.scrolled {
-  background-color: #212529 !important;
-}
