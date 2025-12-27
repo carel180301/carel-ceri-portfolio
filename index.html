@@ -19,78 +19,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!--Navbar-->
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="assets/logo-carel.png" alt="" height="70" width="150" />
-        </a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
-            <li class="nav-item">
-              <a class="nav-link" href="#section_aboutMe">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#section_mySkills">My Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#section_myExperience">My Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#section_myAchievements"
-                >My Achievements</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#section_projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav> -->
-
-    <!--Hero-->
+    <!-- Hero Section -->
     <div
-      class="px-4 text-center bg-dark text-white min-vh-100 d-flex align-items-center justify-content-center"
-      style="
-        background-image: url('assets/hero_background.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-      "
+      class="px-4 text-center bg-white text-black min-vh-100 d-flex align-items-center"
     >
-      <!-- <img
-        class="d-block mx-auto mb-4 w-100"
-        src="assets/logo-carel.png"
-        alt=""
-      /> -->
+      <div class="col-lg-6 mx-auto">
+        <!-- Logo -->
+        <!-- <img
+          src="assets/logo-carel.png"
+          alt="Carel Logo"
+          class="d-block mx-auto mb-3"
+          style="max-width: 260px"
+        /> -->
 
-      <div class="col-lg-6 mx-auto justify-content-center align-items-center">
-        <!-- <h1 class="lead mb-4 text-center">Carel Ceri</h1> -->
-        <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
-            See My Work
-          </button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-            More About Me
-          </button>
-        </div> -->
+        <h1 style="letter-spacing: 0.25em">Carel Ceri</h1>
+
+        <h2>- Web Developer -</h2>
+        <br />
+
+        <img src="assets/hero_background.png" alt="" class="w-75 mb-5" />
+
+        <p class="text-black-75 fs-5 w-75">
+          “I build websites for your needs.”
+        </p>
+
+        <!-- Optional buttons -->
+        <!--
+    <div class="d-flex justify-content-center gap-3">
+      <a href="#work" class="btn btn-primary btn-lg">See My Work</a>
+      <a href="#about" class="btn btn-outline-light btn-lg">About Me</a>
+    </div>
+    -->
       </div>
     </div>
 
@@ -281,19 +240,6 @@
         </li>
       </ul>
     </footer>
-
-    <script>
-      const navbar = document.querySelector(".navbar");
-      const hero = document.querySelector(".min-vh-100");
-
-      window.addEventListener("scroll", () => {
-        if (window.scrollY > hero.offsetHeight - navbar.offsetHeight) {
-          navbar.classList.add("scrolled");
-        } else {
-          navbar.classList.remove("scrolled");
-        }
-      });
-    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
