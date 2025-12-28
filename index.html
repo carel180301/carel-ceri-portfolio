@@ -17,10 +17,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Navbar-->
     <nav
+      data-aos="zoom-in"
       class="navbar navbar-expand-lg bg-dark sticky-top"
       data-bs-theme="dark"
     >
@@ -73,6 +75,7 @@
 
     <!-- Hero Section -->
     <div
+      data-aos="zoom-in"
       class="px-4 text-center bg-white text-black min-vh-100 d-flex align-items-center"
       id="hero"
     >
@@ -107,7 +110,7 @@
     </div>
 
     <!--About Me Section-->
-    <div id="section_aboutMe" class="text-center my-5">
+    <div data-aos="zoom-in" id="section_aboutMe" class="text-center my-5">
       <h1>About Me</h1>
       <p class="aboutMe_text mx-4">
         I am a full-stack web developer. My skills include HTML, CSS,
@@ -122,7 +125,7 @@
     </div>
 
     <!--My Skills Section-->
-    <div id="section_mySkills" class="my-5 text-center">
+    <div data-aos="zoom-in" id="section_mySkills" class="my-5 text-center">
       <h1>My Skills</h1>
       <div class="fs-2">
         <i class="fa-brands fa-html5"></i>
@@ -143,7 +146,11 @@
     </div>
 
     <!--My Experience Section-->
-    <div id="section_myExperience" class="text-center my-5 mx-4">
+    <div
+      data-aos="zoom-in"
+      id="section_myExperience"
+      class="text-center my-5 mx-4"
+    >
       <h2 class="mb-4">My Experience</h2>
 
       <div class="experience-item mb-5">
@@ -169,7 +176,11 @@
     </div>
 
     <!--My Achievement Section-->
-    <div id="section_myAchievements" class="text-center my-5">
+    <div
+      data-aos="zoom-in"
+      id="section_myAchievements"
+      class="text-center my-5"
+    >
       <h1>My Achievement</h1>
       <img
         src="assets/sertifikat-icpc.png"
@@ -180,7 +191,7 @@
     </div>
 
     <!-- Projects Section -->
-    <div id="section_projects" class="text-center my-5">
+    <div data-aos="zoom-in" id="section_projects" class="text-center my-5">
       <h2 class="mb-4">Projects</h2>
 
       <div
@@ -240,8 +251,11 @@
       </div>
     </div>
 
+    <!-- <div data-aos="zoom-in">Hello world</div> -->
+
     <!-- Footer -->
     <footer
+      data-aos="zoom-in"
       class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top container"
     >
       <div class="col-md-4 d-flex align-items-center">
@@ -322,5 +336,10 @@
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
