@@ -11,3 +11,16 @@ p {
   margin: 0 auto;
   line-height: 1.7;
 }
+
+.navbar-white {
+  background-color: #ffffff !important; /* Bootstrap blue */
+  color: #212529 !important;
+}
+
+.logo-invert {
+  filter: invert(1);
+}
+
+.navbar-logo {
+  transition: filter 0.3s ease;
+}
