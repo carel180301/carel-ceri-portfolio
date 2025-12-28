@@ -24,3 +24,25 @@ p {
 .navbar-logo {
   transition: filter 0.3s ease;
 }
+
+#speech-bubble {
+  position: relative;
+  background: #fdfdfd;
+  padding: 18px 22px;
+  border-radius: 14px;
+  line-height: 1.5;
+
+  /* darker shadow */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18), 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+/* Tail */
+#speech-bubble::after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 32px;
+  border-width: 12px 12px 0;
+  border-style: solid;
+  border-color: #ffffff transparent transparent transparent;
+}
