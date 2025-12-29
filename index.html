@@ -54,7 +54,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#hero"
                 >Home</a
@@ -88,10 +88,10 @@
     <!-- Hero Section -->
     <div
       data-aos="zoom-in"
-      class="px-4 text-center bg-white text-black min-vh-100 d-flex align-items-center"
+      class="row justify-content-center px-4 text-center bg-white text-black min-vh-100 d-flex align-items-center"
       id="hero"
     >
-      <div class="col-lg-6 mx-auto">
+      <div class="col-sm-12 col-md-9 col-lg-6">
         <p id="speech-bubble" class="text-black-75 fs-5 w-75">
           Hi! I am Carel. I build websites for your needs
         </p>
@@ -100,58 +100,74 @@
 
         <img src="assets/hero_background.png" alt="" class="w-75 mb-5" />
 
-        <!-- Optional buttons -->
-        <a href="#section_projects" class="btn btn-primary btn-lg w-75 mb-2">
-          See My Work
-        </a>
-        <a href="#section_aboutMe" class="btn btn-secondary btn-lg w-75">
-          About Me
-        </a>
+        <div
+          class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3"
+        >
+          <a href="#section_projects" class="btn btn-primary btn-lg">
+            See My Work
+          </a>
+
+          <a href="#section_aboutMe" class="btn btn-secondary btn-lg">
+            About Me
+          </a>
+        </div>
       </div>
     </div>
     <hr />
 
     <!--About Me Section-->
-    <div data-aos="zoom-in" id="section_aboutMe" class="text-center my-5">
-      <h1>About Me</h1>
-      <p class="aboutMe_text mx-4">
-        I am a full-stack web developer. My skills include HTML, CSS,
-        Javascript, Bootstrapc React, PHP, and Laravel. My work experience
-        includes working as a full-stack web developer (intern) and as a
-        freelance full-stack web developer. I pursued a bachelor’s degree at
-        BINUS UNIVERSITY, majoring in Informatics Engineering. I am a creative,
-        critical-thinking, adaptable, detail-oriented, and collaborative
-        individual.
-      </p>
-      <br />
-      <a
-        href="assets/CV Carel web developer_english-version.pdf"
-        download
-        class="btn btn-success btn-lg"
-      >
-        <i class="fa fa-download me-2"></i> Download CV
-      </a>
+    <div
+      data-aos="zoom-in"
+      id="section_aboutMe"
+      class="row justify-content-center text-center my-5"
+    >
+      <div class="col-sm-12 col-md-9 col-lg-6">
+        <h1>About Me</h1>
+        <p class="aboutMe_text mx-4 mx text-center">
+          I am a full-stack web developer. My skills include HTML, CSS,
+          Javascript, Bootstrapc React, PHP, and Laravel. My work experience
+          includes working as a full-stack web developer (intern) and as a
+          freelance full-stack web developer. I pursued a bachelor’s degree at
+          BINUS UNIVERSITY, majoring in Informatics Engineering. I am a
+          creative, critical-thinking, adaptable, detail-oriented, and
+          collaborative individual.
+        </p>
+        <br />
+        <a
+          href="assets/CV Carel web developer_english-version.pdf"
+          download
+          class="btn btn-success btn-lg"
+        >
+          <i class="fa fa-download me-2"></i> Download CV
+        </a>
+      </div>
     </div>
     <hr />
 
     <!--My Skills Section-->
-    <div data-aos="zoom-in" id="section_mySkills" class="my-5 text-center">
-      <h1>My Skills</h1>
-      <div class="fs-2">
-        <i class="fa-brands fa-html5"></i>
-        <span>HTML</span><br />
-        <i class="fa-brands fa-css3-alt"></i>
-        <span>CSS</span><br />
-        <i class="fa-brands fa-js"></i>
-        <span>Javascript</span><br />
-        <i class="fa-brands fa-bootstrap"></i>
-        <span>Bootstrap</span><br />
-        <i class="fa-brands fa-react"></i>
-        <span>React</span><br />
-        <i class="fa-brands fa-php"></i>
-        <span>PHP</span><br />
-        <i class="fa-brands fa-laravel"></i>
-        <span>Laravel</span>
+    <div
+      data-aos="zoom-in"
+      id="section_mySkills"
+      class="row justify-content-center my-5 text-center"
+    >
+      <div class="col-sm-12 col-md-9 col-lg-6">
+        <h1>My Skills</h1>
+        <div class="fs-2">
+          <i class="fa-brands fa-html5"></i>
+          <span>HTML</span><br />
+          <i class="fa-brands fa-css3-alt"></i>
+          <span>CSS</span><br />
+          <i class="fa-brands fa-js"></i>
+          <span>Javascript</span><br />
+          <i class="fa-brands fa-bootstrap"></i>
+          <span>Bootstrap</span><br />
+          <i class="fa-brands fa-react"></i>
+          <span>React</span><br />
+          <i class="fa-brands fa-php"></i>
+          <span>PHP</span><br />
+          <i class="fa-brands fa-laravel"></i>
+          <span>Laravel</span>
+        </div>
       </div>
     </div>
     <hr />
@@ -160,29 +176,31 @@
     <div
       data-aos="zoom-in"
       id="section_myExperience"
-      class="text-center my-5 mx-4"
+      class="row justify-content-center text-center my-5 mx-4 mx-md-1"
     >
-      <h2 class="mb-4">My Experience</h2>
+      <div class="col-sm-12 col-md-9 col-lg-6">
+        <h2 class="mb-4">My Experience</h2>
 
-      <div class="experience-item mb-5">
-        <h5>Full-Stack Web Developer (Intern)</h5>
-        <p class="text-muted mb-1">
-          PT. Asuransi Kredit Indonesia • Desember 2025 - Februari 2026
-        </p>
-        <p>
-          Developed accounts receivable reminder web apps for helping PT.
-          Asuransi Kredit Indonesia to manage the database and email their
-          clients more efficiently
-        </p>
-      </div>
+        <div class="experience-item mb-5">
+          <h5>Full-Stack Web Developer (Intern)</h5>
+          <p class="text-muted mb-1">
+            PT. Asuransi Kredit Indonesia • Desember 2025 - Februari 2026
+          </p>
+          <p>
+            Developed accounts receivable reminder web apps for helping PT.
+            Asuransi Kredit Indonesia to manage the database and email their
+            clients more efficiently
+          </p>
+        </div>
 
-      <div class="experience-item">
-        <h5>Freelance Full-Stack Web Developer</h5>
-        <p class="text-muted mb-1">Self-employed • 2024 – Present</p>
-        <p>
-          Developed websites and web applications for clients. Translated client
-          requirements into functional solutions.
-        </p>
+        <div class="experience-item">
+          <h5>Freelance Full-Stack Web Developer</h5>
+          <p class="text-muted mb-1">Self-employed • 2024 – Present</p>
+          <p>
+            Developed websites and web applications for clients. Translated
+            client requirements into functional solutions.
+          </p>
+        </div>
       </div>
     </div>
     <hr />
@@ -191,149 +209,156 @@
     <div
       data-aos="zoom-in"
       id="section_myAchievements"
-      class="text-center my-5"
+      class="row justify-content-center text-center my-5"
     >
-      <h1>My Achievement</h1>
-      <a
-        href="https://drive.google.com/file/d/1afv94BiWxjwecOMgxj2MrCcUTq7lUsf3/view?usp=sharing"
-        data-lightbox="image"
-        target="_blank"
-        style="cursor: pointer"
-      >
-        <img src="assets/sertifikat-icpc.png" class="w-100" />
-      </a>
+      <div class="col-sm-12 col-md-9 col-lg-6">
+        <h1>My Achievement</h1>
+        <a
+          href="https://drive.google.com/file/d/1afv94BiWxjwecOMgxj2MrCcUTq7lUsf3/view?usp=sharing"
+          data-lightbox="image"
+          target="_blank"
+          style="cursor: pointer"
+        >
+          <img src="assets/sertifikat-icpc.png" class="img-fluid" />
+        </a>
+      </div>
     </div>
     <hr />
 
     <!-- Projects Section -->
-    <div data-aos="zoom-in" id="section_projects" class="text-center my-5">
-      <h2 class="mb-4">Projects</h2>
+    <div
+      data-aos="zoom-in"
+      id="section_projects"
+      class="row justify-content-center text-center my-5"
+    >
+      <div class="col-sm-12 col-md-9 col-lg-6">
+        <h2 class="mb-4">Projects</h2>
+        <div
+          class="accordion mx-auto text-center"
+          id="projectsAccordion"
+          style="max-width: 900px"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button text-center"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#projectOne"
+                aria-expanded="true"
+                aria-controls="projectOne"
+              >
+                Carel Music Player
+              </button>
+            </h2>
 
-      <div
-        class="accordion mx-auto text-center"
-        id="projectsAccordion"
-        style="max-width: 900px"
-      >
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button
-              class="accordion-button text-center"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#projectOne"
-              aria-expanded="true"
-              aria-controls="projectOne"
+            <div
+              id="projectOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#projectsAccordion"
             >
-              Carel Music Player
-            </button>
-          </h2>
-
-          <div
-            id="projectOne"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingOne"
-            data-bs-parent="#projectsAccordion"
-          >
-            <div class="accordion-body text-center">
-              <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
-                </div>
-                <div class="carousel-inner">
-                  <!-- <div class="carousel-item active">
+              <div class="accordion-body text-center">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <!-- <div class="carousel-item active">
                     <img
                       src="assets/project1(1).png"
                       class="d-block w-100"
                       alt="..."
                     />
                   </div> -->
-                  <div class="carousel-item active">
-                    <a href="assets/project1(1).png" data-lightbox="projects">
-                      <img src="assets/project1(1).png" class="w-100" />
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="assets/project1(2).png" data-lightbox="projects">
-                      <img src="assets/project1(2).png" class="w-100" />
-                    </a>
-                  </div>
-                  <!-- <div class="carousel-item">
+                    <div class="carousel-item active">
+                      <a href="assets/project1(1).png" data-lightbox="projects">
+                        <img src="assets/project1(1).png" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="assets/project1(2).png" data-lightbox="projects">
+                        <img src="assets/project1(2).png" class="w-100" />
+                      </a>
+                    </div>
+                    <!-- <div class="carousel-item">
                     <img
                       src="assets/project1(2).png"
                       class="d-block w-100"
                       alt="..."
                     />
                   </div> -->
-                  <!-- <div class="carousel-item">
+                    <!-- <div class="carousel-item">
                     <img src="..." class="d-block w-100" alt="..." />
                   </div> -->
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
 
-              <p>
-                'Carel Music Player' is a music player web app that is inspired
-                by Spotify. Using HTML, CSS, JavaScript, and Bootstrap, I build
-                this as a fun way to practice: UI/UX, more advanced JavaScript,
-                and finishing & shipping.
-              </p>
-              <br />
+                <p>
+                  'Carel Music Player' is a music player web app that is
+                  inspired by Spotify. Using HTML, CSS, JavaScript, and
+                  Bootstrap, I build this as a fun way to practice: UI/UX, more
+                  advanced JavaScript, and finishing & shipping.
+                </p>
+                <br />
 
-              <div class="d-flex justify-content-center gap-3">
-                <a
-                  href="https://lnkd.in/gFqe6_r7 "
-                  target="_blank"
-                  class="btn btn-primary"
-                  >Live Demo</a
-                >
-                <a
-                  href="https://github.com/carel180301/carel-music-player"
-                  target="_blank"
-                  class="btn btn-secondary"
-                  >GitHub</a
-                >
+                <div class="d-flex justify-content-center gap-3">
+                  <a
+                    href="https://lnkd.in/gFqe6_r7 "
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Live Demo</a
+                  >
+                  <a
+                    href="https://github.com/carel180301/carel-music-player"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >GitHub</a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -343,18 +368,31 @@
     <hr />
 
     <!--Contact Me Section-->
-    <div id="section_contactMe" class="text-center my-5">
-      <h1>Get In Touch</h1>
-      <p class="mx-4">
-        Have a project in mind or want to work together? Feel free to reach out
-      </p>
-      <br />
-      <a
+    <div
+      id="section_contactMe"
+      class="row justify-content-center text-center my-5"
+    >
+      <div class="col-sm-12 col-md-9 col-lg-6">
+        <h1>Get In Touch</h1>
+        <p class="mx-4 text-center">
+          Have a project in mind or want to work together? Feel free to reach
+          out
+        </p>
+        <br />
+        <!-- <a
         href="mailto:carelceri180301@gmail.com"
         class="btn btn-primary btn-lg w-50 mb-2"
       >
         Contact Me
-      </a>
+      </a> -->
+
+        <a
+          href="mailto:carelceri180301@gmail.com"
+          class="btn btn-primary btn-lgmb-2"
+        >
+          Contact Me
+        </a>
+      </div>
     </div>
 
     <!-- Footer -->
