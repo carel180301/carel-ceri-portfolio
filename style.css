@@ -59,3 +59,13 @@ p {
   right: 20px;
   transform: scale(1.4);
 }
+
+hr {
+  border: none;
+  border-top: 10px solid #9ca3af;
+  margin: 3rem 0;
+}
+
+.accordion {
+  --bs-accordion-border-width: 2px;
+}
