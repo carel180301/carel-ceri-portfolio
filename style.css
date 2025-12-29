@@ -51,3 +51,11 @@ p {
 .carousel-control-next-icon {
   filter: invert(1);
 }
+
+.lb-close {
+  display: block !important;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  transform: scale(1.5);
+}
